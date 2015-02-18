@@ -57,8 +57,10 @@ public class MusicOrganizer
      */
     public void listAllFiles()
     {
-        for(String filename : files) {
-            System.out.println(filename);
+        for(int i =0; i < files.size(); i++) {
+            
+             String filename = files.get(i);
+             System.out.println(filename);
         }
     }
     
